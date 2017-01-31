@@ -1,0 +1,27 @@
+/* CSS declarations go here */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+div {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.timer {
+    cursor: pointer;
+    display: block;
+    height: auto;
+    font-size: 3rem;
+    margin: auto;
+    width: auto;
+}
